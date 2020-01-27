@@ -3,7 +3,7 @@
 #' @param replace the data to replace with
 #' @return x data with all Inf values replaced
 #' @examples
-#' replace_nan(-Inf,-49:48,Inf)
+#' replace_nan(c(-Inf,-49:48,Inf))
 #' @export
 replace_infinite <-
 function (x, replace=0, ...) {

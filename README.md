@@ -18,12 +18,13 @@ For R versions less than 3.5 use:
 
 ```
 
-remote::install_github("seakintruth/cleanInvalid")
+devtools::install_github("seakintruth/cleanInvalid")
 load(cleanInvalid)
 
 ```
 
 # Install From compressed file
+One of the goals of this project is to get this package into a state where something like this will run:
 ```
 install.packages("https://github.com/seakintruth/cleanInvalid/archive/master.zip",repos=NULL,type="source")
 ```

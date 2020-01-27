@@ -3,7 +3,7 @@
 #' @param replace the data to replace with
 #' @return x data with all NULL values replaced
 #' @examples
-#' replace_null(NULL,-49:48,Inf)
+#' replace_null(c(NULL,-49:48,Inf))
 #' @export
 replace_null <-
 function (x, replace=0, ...) {

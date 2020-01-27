@@ -2,7 +2,6 @@
 #' @param replace_* convienence wrappers for various replace invalid numeric data
 #' @return x
 #' @examples
-#' message(replace_negative((-50:49),0))
 #' test.err.a <-c(-1/0,-49:48,-Inf)
 #' test.err.b <-c(sqrt(-12),-49:48,"")
 #' test.all <- replace_empty.na.nan.null.inf(rbind(test.err.a,test.err.b),0)

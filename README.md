@@ -24,4 +24,6 @@ load(cleanInvalid)
 ```
 
 # Install From compressed file
+```
 install.packages("https://github.com/seakintruth/cleanInvalid/archive/master.zip",repos=NULL,type="source")
+```

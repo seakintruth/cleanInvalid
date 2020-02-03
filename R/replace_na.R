@@ -3,7 +3,7 @@
 #' @param replace the data to replace with
 #' @return x data with all NA values replaced
 #' @examples
-#' replace_null(NULL,-49:48,NA)
+#' replace_null(c(NULL,-49:48),NA)
 #' @export
 replace_na <-
 function (x, replace=0, ...) {

@@ -26,5 +26,5 @@ load(cleanInvalid)
 # Install From compressed file
 One of the goals of this project is to get this package into a state where something like this will run:
 ```
-install.packages("https://github.com/seakintruth/cleanInvalid/archive/master.zip",repos=NULL,type="source")
+install.packages("../cleanInvalid_master.zip",repos=NULL,type="source")
 ```

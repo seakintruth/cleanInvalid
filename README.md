@@ -5,7 +5,6 @@ An R package to aid in cleaning data
 For R versions greater or equal to 3.5 I recommend using pacman:
 
 ```
-cc
 pacman::p_load_gh("seakintruth/cleanInvalid")
 
 ```
